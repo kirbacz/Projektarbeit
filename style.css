@@ -1,0 +1,93 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    background-image: url("https://planetofhotels.com/guide/sites/default/files/styles/paragraph__live_banner__lb_image__1880bp/public/live_banner/izmir-2.jpg");
+    background-color: white;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 15px;
+}
+.menu-bar{
+    background: #5b71b5;
+    text-align: center;
+}
+.menu-bar ul{
+    display: inline-flex;
+    list-style: none;
+}
+.menu-bar ul li{
+    width: 200px;
+    margin: 15px;
+    padding: 15px;
+}
+.menu-bar ul li a{
+    text-decoration: none;
+    color: antiquewhite;
+}
+.active, .menu-bar ul li:hover{
+    background: plum;
+    border-radius: 10px;
+}
+.menu-bar .fa{
+    margin-left: 8px;
+}
+h1 {
+    width: 100%;				
+    font-weight: lighter;			
+    text-align: center;			
+    font-size: 40px;
+    color: black;	
+    font-size: 4rem;
+    text-align: center;
+    margin-bottom: 3rem;		
+}
+.imf {				
+    min-width: 775px;	
+    display: flex;
+    flex-wrap: wrap;	
+    justify-content: center;			
+}
+.more {
+    display: flex;				
+    justify-content: center;
+    align-items: center;
+    padding-top: 45px;	
+}
+.more div {				
+    background-size: cover;							     
+    min-width: 450px;								
+    min-height: 345px;								
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 30px;
+    margin-left: 30px;
+}
+#sights{
+     background-image: url("https://as1.ftcdn.net/v2/jpg/04/75/12/20/1000_F_475122052_HZ9dELfWx6d8808gVxgNPvxuE5faTqHG.jpg"); 
+}
+#events{
+     background-image: url("https://cdnp.flypgs.com/files/Sehirler-long-tail/izmir/izmir-gezi-rehberi.jpg"); 
+}
+.text{
+    text-align: center;
+    color: black;
+    margin-left: 30px;
+    margin-right: 30px;
+    font-size: 20px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+.ka{
+    text-align: center;
+}
+.bilmiyom{
+    text-align: center;
+}
+.kkw{
+    margin-left: 30px;
+    font-size: 20px;
+    text-align: center;
+}
